@@ -1,0 +1,31 @@
+# Hibernate-Based Product Inventory System
+
+## Description
+A backend-focused Product Inventory System built using Hibernate ORM to simplify database operations through object-relational mapping. It improves scalability, maintainability, and reduces manual SQL usage compared to JDBC.
+
+## Tech Stack
+Java | Hibernate | MySQL | Maven
+
+## Features
+- Add, update, delete, and view products  
+- ORM-based database interaction  
+- Clean architecture using DAO pattern  
+
+## How to Run
+1. Clone repo  
+2. Create MySQL DB: `inventory_db`  
+3. Update `hibernate.cfg.xml` with DB credentials  
+4. Run:
+   mvn clean install  
+5. Run main class  
+
+## Concepts
+Hibernate ORM, DAO Pattern, CRUD, Entity Mapping, HQL  
+
+## Future Enhancements
+- Spring Boot integration  
+- REST APIs  
+- Web UI (React/JSP)  
+- Authentication & search filters  
+
+---
